@@ -14,6 +14,8 @@ h1,h2,h3,h4,h5,h6{
 header{
 
     text-align: center;
+    background-color:#59524C;
+    margin: 4px; 
 
 }
 
@@ -24,6 +26,7 @@ header{
     padding: 10px; 
     border: 2px solid #59524C;
     color: #59524C; 
+    margin: 2px;
     
 
 }
@@ -31,6 +34,7 @@ header{
 #hero img{
 
     width: 220px; 
+    border-radius: 200px; 
 }
 
 #bio{
@@ -38,6 +42,7 @@ header{
     background-color:#939EAD ;
     border: 2px solid #59524C;
     color: #59524C; 
+    margin: 2px;
 
     
 
@@ -48,6 +53,69 @@ header{
 #hero img {
 
     width:200px;
+}
+
+#hobbies,#bio, #hero, article  {
+
+
+    background-color:#939EAD ;
+    border: 2px solid #59524C;
+    color: #59524C; 
+    margin: 7px; 
+    box-shadow: 5px 5px 5px rgba(0.5,0.5,0.5,0.5);
+
+    text-align: center;
+    
+    border-radius: 2px; 
+
+    
+
+
+}
+
+ /** #hobbies:hover, #bio:hover, #hero:hover, article:hover {
+    background-color:black;
+}
+**/ 
+
+
+#hobbies li{
+
+    width: 50%; 
+    margin-left: 45%; 
+    margin-right: 45%; 
+    text-align: left; 
+
+}
+
+#gallery{
+
+
+    padding: 3px; 
+    margin: 8px;
+    border: 2px solid #59524C; 
+    box-shadow: 5px 5px 5px rgba(0.5,0.5,0.5,0.5);
+
+    text-align: center; 
+    background-color: #939EAD; 
+    color:#59524C; 
+    
+    
+
+
+}
+
+article{
+
+    text-align: justify; 
+
+    padding: 10%; 
+
+}
+
+article h2{
+
+    text-align:center; 
 }
 
 footer{
